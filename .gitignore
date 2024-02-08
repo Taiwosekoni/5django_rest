@@ -1,0 +1,23 @@
+#ignore all files here
+*.pyc
+__pycache__
+ 
+# Ignore SQLite database file (if you're using SQLite)
+db.sqlite3
+ 
+# Ignore environment-specific settings files
+.env
+ 
+# Ignore local development settings file
+local_settings.py
+ 
+# Ignore static files collected during development
+/static/
+ 
+# Ignore media files uploaded during development
+/media/
+ 
+# Ignore log files
+*.log
+# Ignore piplock
+pipfile.lock
